@@ -1,12 +1,11 @@
 // routes/match.js
 const express = require('express');
 const router = express.Router();
- 
-router.get('/', async(req,res)=>{
-    return {
-        message
-:"hello"    }
-    
-});                    // Anyone can view
- 
+
+router.get('/', async (req, res) => {
+  res.json({
+    message: "hello"
+  });
+});
+
 module.exports = router;

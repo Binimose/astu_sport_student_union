@@ -35,7 +35,7 @@ app.use('/api/tournaments', tournamentRoutes);
 app.use('/api/teams', teamRoutes);
 app.use('/api/matches', matchRoutes);
 app.use('/api/voting', votingRoutes);
-app.use('/')
+
 // === HEALTH CHECK ===
 app.get('/', (req, res) => {
   res.json({ 
